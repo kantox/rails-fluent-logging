@@ -11,9 +11,9 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
   gem.name          = 'rails-fluent-logging'
-  gem.version       = '0.0.1'
+  gem.version       = '0.0.2'
 
-  gem.add_dependency('rails', '3.2.13')
+  gem.add_dependency('rails', '3.2.17')
   gem.add_dependency('fluent-logger', '0.4.4')
   gem.add_dependency('json-colorizer', '0.0.2')
 end
